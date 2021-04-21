@@ -15,7 +15,7 @@ class Maps extends Component {
 
         return (
                 <div className={Style.main}>
-                        {/* <Map google={this.props.google} zoom={14}
+                        <Map google={this.props.google} zoom={14}
                             initialCenter={{lat: 41.374860, lng:69.273235}}
                             className={Style.map}
                             
@@ -23,7 +23,7 @@ class Maps extends Component {
                     
                             <Marker onClick={this.onMarkerClick}
                                     name={'Current location'} position={{lat: 41.374860, lng:69.273235}} />
-                        </Map> */}
+                        </Map>
                         <Map
                             google={this.props.google}
                             style={style}
