@@ -5,6 +5,7 @@ import {MdMail, MdLocationOn} from 'react-icons/md'
 import Rotate from 'react-reveal/Rotate';
 import Flip from 'react-reveal/Flip';
 import Maps from './Maps';
+import Leaflet from './Leafalet/Leaflet'
 
 
 const Contact1 = () => {
@@ -63,7 +64,8 @@ const Contact1 = () => {
                 </div>
                 <div className={style.flex} >
                     <div className={style.map}>
-                        <Maps/>
+                        {/* <Maps/> */}
+                        <Leaflet />
                     </div>
                     <div className={style.inputDiv} >
                         <Flip left cascade>
