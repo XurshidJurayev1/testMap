@@ -4,7 +4,7 @@ import {FaPhoneAlt} from 'react-icons/fa'
 import {MdMail, MdLocationOn} from 'react-icons/md'
 import Rotate from 'react-reveal/Rotate';
 import Flip from 'react-reveal/Flip';
-import Maps from './Maps';
+// import Maps from './Maps';
 import Leaflet from './Leafalet/Leaflet'
 
 
