@@ -1,0 +1,106 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+    background-color: #544948 ;
+}
+/* #0F2B54 */
+.inMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    max-width: 1170px;
+    height: 100%;
+}
+.inMain h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.inMain p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.inMain p a{
+    color: #fff;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    padding: 0 35px;
+    background-color: #0F2B54;
+    border: none;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.btn a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 1.5;
+    text-decoration: none;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
+}
+.btn div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #fff;
+
+}
+.btn:hover div{
+    transition: all 1s ease;
+    animation: btn .5s ease forwards ;
+
+}
+.btn:hover a{
+    color: #0f2b54;
+    font-weight: 600;
+}
+@keyframes btn{
+    0%{
+        transition: all 1s ease;
+        height: 0%;
+        opacity: .4;
+    }
+    50%{
+        transition: all 1s ease;
+        height: 100%;
+        opacity: .6;
+    }
+    75%{
+        transition: all 1s ease;
+        height: 75%;
+        opacity: .8;
+    }
+    100%{
+        transition: all 1s ease;
+        height: 100%;
+        opacity: 1;
+    }
+}
+
